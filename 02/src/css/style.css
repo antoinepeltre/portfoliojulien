@@ -16,7 +16,7 @@ a {
 
 .home__navLogo {
   font-family: 'etna';
-  font-size:30px;
+  font-size:27px;
   color:#525252;
 }
 
@@ -25,16 +25,16 @@ a {
 	color:#FFF;
 	line-height: 30px;
   font-family: 'avenir';
-  font-size:22px;
+  font-size:20px;
 }
 
 .home__see {
   font-family: 'avenir';
   font-style: italic;
   color:#525252;
-  margin:100px;
+  margin-top:150px;
   text-align: center;
-  font-size:22px;
+  font-size:16px;
 }
 
 span.boldAvenir{
@@ -51,7 +51,7 @@ span.boldAvenir{
 	color: #fff;
 	display: inline-block;
   font-family: 'avenir';
-  font-size:18px;
+  font-size:16px;
 }
 
 .home__footerRs p {
@@ -60,7 +60,7 @@ span.boldAvenir{
 }
 
 .home__footerUnderline1 {
-  width: 67px;
+  width: 56px;
 height: 1px;
 background-color: #fff;
 position: absolute;
@@ -69,11 +69,11 @@ top: 22px;
 
 
 .home__footerUnderline2 {
-  width: 75px;
-height: 1px;
-background-color: #fff;
-position: absolute;
-top: 22px;
-left: 96px;
+  width: 59px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 22px;
+  left: 91px;
 
 }
