@@ -1,79 +1,91 @@
 body {
-	background-image: url('../images/background.png');
-	font-size:14px;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    font-size: 14px;
 }
 
 a {
-	cursor: pointer;
-	text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .home__nav {
-	font-size: 18px;
-	color:#FFF;
-	padding: 20px;
+    font-size: 18px;
+    color: #FFF;
+    padding: 20px;
 }
 
 .home__navLogo {
-  font-family: 'etna';
-  font-size:27px;
-  color:#525252;
+    font-family: 'etna';
+    font-size: 27px;
+    color: #525252;
 }
 
 .home__description {
-	margin: 200px 0px 0px 240px;
-	color:#FFF;
-	line-height: 30px;
-  font-family: 'avenir';
-  font-size:20px;
+    margin: 200px 0px 0px 17%;
+    color: #FFF;
+    line-height: 30px;
+    font-family: 'avenir';
+    font-size: 20px;
 }
 
 .home__see {
-  font-family: 'avenir';
-  font-style: italic;
-  color:#525252;
-  margin-top:150px;
-  text-align: center;
-  font-size:16px;
+    font-family: 'avenir';
+    font-style: italic;
+    color: #525252;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
 }
 
-span.boldAvenir{
-  font-size:22px;
-  font-family: 'avenir';
-	font-weight:900;
+
+.home__footerUnderline3 {
+    width: 185px;
+    height: 1px;
+    background-color: #525252;
+    position:absolute;
+    left: 50%;
+    top:20px;
+    transform: translate(-50%,-50%);
+
 }
 
-.home__footerRs{
-	display: flex;
-	position: absolute;
-	bottom: 20px;
-	right: 40px;
-	color: #fff;
-	display: inline-block;
-  font-family: 'avenir';
-  font-size:16px;
+span.boldAvenir {
+    font-size: 22px;
+    font-family: 'avenir';
+    font-weight: 900;
+}
+
+.home__footerRs {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    color: #fff;
+    display: inline-block;
+    font-family: 'avenir';
+    font-size: 16px;
 }
 
 .home__footerRs p {
-	display: inline-block;
-	margin: 0px 10px;
+    display: inline-block;
+    margin: 0px 10px;
 }
 
 .home__footerUnderline1 {
-  width: 56px;
-height: 1px;
-background-color: #fff;
-position: absolute;
-top: 22px;
+    width: 56px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 22px;
 }
 
-
 .home__footerUnderline2 {
-  width: 59px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  top: 22px;
-  left: 91px;
-
+    width: 59px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 22px;
+    left: 91px;
 }
