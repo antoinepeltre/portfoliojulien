@@ -1,6 +1,7 @@
 @font-face {
-    font-family: test;
-    src: url(../fonts/LeckerliOne-Regular.ttf);
+  font-family: test;
+  src: local("../fonts/typo.ttf"),
+  font-weight: bold;
 }
 
 
@@ -23,9 +24,21 @@ a {
 }
 
 .home__description {
-	position: absolute;
-	width:70%;
-	left: 15%;
-	top:200px;
+	margin: 200px 0px 0px 240px;
 	color:#FFF;
+	line-height: 30px;
+}
+
+.home__footerRs{
+	display: flex;
+	position: absolute;
+	bottom: 20px;
+	right: 40px;
+	color: #fff;
+	display: inline-block;
+}
+
+.home__footerRs p {
+	display: inline-block;
+	margin: 0px 10px;
 }
