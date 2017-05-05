@@ -1,16 +1,6 @@
-@font-face {
-font-family: 'leckerliOne';
-src: url('../fonts/leckerliOne.ttf?');
-font-weight: normal;
-}
-
-
-
 body {
 	background-image: url('../images/background.png');
-	font-family:'leckerliOne';
 	font-size:14px;
-
 }
 
 a {
@@ -24,13 +14,32 @@ a {
 	padding: 20px;
 }
 
+.home__navLogo {
+  font-family: 'etna';
+  font-size:30px;
+  color:#525252;
+}
+
 .home__description {
 	margin: 200px 0px 0px 240px;
 	color:#FFF;
 	line-height: 30px;
+  font-family: 'avenir';
+  font-size:22px;
 }
 
-span.bold{
+.home__see {
+  font-family: 'avenir';
+  font-style: italic;
+  color:#525252;
+  margin:100px;
+  text-align: center;
+  font-size:22px;
+}
+
+span.boldAvenir{
+  font-size:22px;
+  font-family: 'avenir';
 	font-weight:900;
 }
 
@@ -41,9 +50,30 @@ span.bold{
 	right: 40px;
 	color: #fff;
 	display: inline-block;
+  font-family: 'avenir';
+  font-size:18px;
 }
 
 .home__footerRs p {
 	display: inline-block;
 	margin: 0px 10px;
+}
+
+.home__footerUnderline1 {
+  width: 67px;
+height: 1px;
+background-color: #fff;
+position: absolute;
+top: 22px;
+}
+
+
+.home__footerUnderline2 {
+  width: 75px;
+height: 1px;
+background-color: #fff;
+position: absolute;
+top: 22px;
+left: 96px;
+
 }

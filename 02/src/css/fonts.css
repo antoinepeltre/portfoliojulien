@@ -1,0 +1,29 @@
+@font-face {
+font-family: 'leckerliOne';
+src: url('../fonts/leckerliOne.ttf?');
+font-weight: normal;
+}
+
+@font-face {
+font-family: 'avenirNextCondensed';
+src: url('../fonts/AvenirNextCondensed.ttc');
+font-weight: normal;
+}
+
+@font-face {
+font-family: 'avenir';
+src: url('../fonts/Avenir.ttc');
+font-weight: normal;
+}
+
+@font-face {
+font-family: 'avenirNext';
+src: url('../fonts/AvenirNext.ttc');
+font-weight: normal;
+}
+
+@font-face {
+font-family: 'etna';
+src: url('../fonts/etna.otf');
+font-weight: normal;
+}
