@@ -1,5 +1,31 @@
+@font-face {
+    font-family: test;
+    src: url(../fonts/LeckerliOne-Regular.ttf);
+}
+
+
+
 body {
-	background:#eee;
-	font-family:Helvetica,Arial;
+	background-image: url('../images/background.png');
+	font-family:'test';
 	font-size:14px;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.home__nav {
+	font-size: 18px;
+	color:#FFF;
+	padding: 20px;
+}
+
+.home__description {
+	position: absolute;
+	width:70%;
+	left: 15%;
+	top:200px;
+	color:#FFF;
 }
