@@ -1,15 +1,16 @@
 @font-face {
-  font-family: test;
-  src: local("../fonts/typo.ttf"),
-  font-weight: bold;
+font-family: 'leckerliOne';
+src: url('../fonts/leckerliOne.ttf?');
+font-weight: normal;
 }
 
 
 
 body {
 	background-image: url('../images/background.png');
-	font-family:'test';
+	font-family:'leckerliOne';
 	font-size:14px;
+
 }
 
 a {
